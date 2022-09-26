@@ -78,15 +78,15 @@ nav{
     margin-left: 93px;
 }
 
-.nav-list{
+.navlist{
     display: flex;
 }
 .nav-item:not(:first-child){
-    margin-left: 54px;
+    margin-left: 8px;
 }
-.nav-item:first-child{
+/* .nav-item:first-child{
     margin-left: 0;
-}
+} */
 .nav-link,
 .contact-link{
     font-style: normal;
@@ -173,6 +173,9 @@ nav{
     margin: 15px;
 
 }
+.team-img{
+    width: 270px;
+}
 
 /* Футер */
 .section.footer{
@@ -218,7 +221,9 @@ ul{
     line-height: 24px;
     }
     .portfolio-item:not(:first-child){
-        margin-left: 8px;
+        
+        margin-left: 54px;
+
     }
     .portfolio-button{
         border: none;
